@@ -46,10 +46,7 @@ const AddItem = (props) => {
               <option value="Marlene">Marlene</option>
             </select>
           </div>
-
         </div>
-
-
         <Button type="submit">Add Item</Button>
       </form>
     </Card>

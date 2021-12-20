@@ -10,9 +10,11 @@ const ItemList = (props) => {
         {props.itemsList.map(
           item => (
             <ItemObject
+              id={item.id}
               item={item.item}
               date={item.date}
               author={item.author}
+              onDelete={props.onDeleteItem}
             />
           )
         )}
